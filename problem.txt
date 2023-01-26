@@ -1,0 +1,18 @@
+WEB WEAVER | ROUND-2
+
+********************************************************************************************
+Design a database (SQL/No-SQL) containing 20 images with each images' info given as "name","date" and "tags". Design a component-based gallery frontend with image cards , which displays all images with it's name and allows user to either type a search query or filter the images by "name" , "date ascending/descending" and "tags".
+
+The frontend should be populated using data fetched from API calls made to a backend server which in turn fetches data from a database hosted on the internet(bonus) or locally.
+
+Implement Google OAuth for sign-in to vaidate users (Hint : Use cloud platforms) for following opearations:-
+
+a. There should be an upload image button as well on the gallery page which opens up a   pop-up dialog box where the user can input detials and corresponding image file to upload on the database. (Again, use API Calls)
+
+b. Delete a particular image that has been uploaded using a delete button present on frontend of signed-in users only.
+
+********************************************************************************************
+Bonus :-
+a. Search Suggestions while typing image queries.
+b. Different Layout options in gallery.
+c. In-place changes in the page after upload or delete of any image. (Without Reloading)
